@@ -46,6 +46,7 @@ body{
 
 .imgCtn{
     width: 540px;
+    height: 300px;
     border-radius: 10px;
 }
 .imgCtn img{
@@ -97,12 +98,43 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    font: size 35px;
+    font-size: 20px;
 }
 .ingredients{
     background-color: #fff5fa;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
     font-size: 20px;
     margin-top: 30px;
+}
+.ingredients ol{
+    font-size: 20px;
+}
+
+    
+table{
+    /*padding-top: 2rem;
+    padding-bottom:2rem;
+    padding-right:7rem;
+    padding-left:7rem;*/
+    border: none;
+   
+}
+tbody{
+   /* padding: 0rem 7rem;
+    margin: 7rem;*/ 
+    border: none;
+   
+    
+}
+td{
+   padding: 10px 6rem; 
+    margin: 4rem;
+    font-size:16px;
+    border: none;
+}
+.bask{
+    color: brown;
+    font-weight:600;
+
 }
